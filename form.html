@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lorenzo">
+    <title>Form di Registrazione</title>
+</head>
+<body>
+    <h1>Form di Registrazione</h1>
+    <form>
+        <label for="name"> Il tuo nome
+        </label>
+        <input type="text" name="name" placeholder="il tuo nome"><br>
+        <label for="surname"> Il tuo cognome
+        </label>
+        <input type="text" name="surname" placeholder="il tuo cognome"><br>
+        <label for="email"> La tua e-mail
+        </label>
+        <input type="email" name="email" placeholder="la tua e-mail"><br>
+        <label for="password"> Password
+        </label>
+        <input type="password" name="password" placeholder="la tua password"><br>
+        <label for="birthdate"> Data di nascita         
+        </label>
+        <input type="date" name="birthdate" placeholder="Data di nascita"><br>
+        <label for="phone"> Numero di telefono
+        </label>
+        <input type="number" name="phone" placeholder="Il tuo numero"><br>
+        <h3>Gusti musicali</h3>
+        <input type="checkbox" name="pop-music" value="pop-music">
+        <label for="pop-music">Pop</label>
+        <input type="checkbox" name="rock-music" value="rock-music">
+        <label for="rock-music">Rock</label>
+        <input type="checkbox" name="classical-music" value="classical-music">
+        <label for="classical-music">Classica</label><br>
+        <input type="radio" name="accept-terms" value="accept-terms">
+        <label for="accept-terms">Accetto i termini</label>
+        <input type="radio" name="accept-terms" value="no-accept-terms">
+        <label for="accept-terms">Non accetto i termini</label>
+        <button onclick="alert('Registrazione inviata!')">Invia registrazione</button>
+    </form>
+</body>
+</html>
